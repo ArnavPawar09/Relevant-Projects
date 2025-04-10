@@ -1,0 +1,181 @@
+#body{
+    width: 400px;
+    background-color: black;
+    height: 500px;
+    z-index: 1;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#screen{
+    text-align: right;
+    width: 335px;
+    height: 70px;
+    background-color: rgb(77, 77, 77);
+    margin: 25px;
+    z-index: 2;
+    display: inline-block;
+    font-size: 4em;
+    color: white;
+    overflow-y: hidden;
+    overflow-x:hidden;
+    padding-top: 0px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+#box{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    width: 255px;
+    margin-left: 22px;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    float: left;
+}
+#box button:hover{
+    border: 2px solid rgb(191, 191, 191);
+}
+#one{
+    width: 5rem;
+    height: 5rem;
+    font-size: 3em;
+    margin-left: 2px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+#two{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5px;
+    font-size: 3em;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+#three{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5px;
+    font-size: 3em;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+#four{
+    width: 5rem;
+    height: 5rem;
+    font-size: 3em;
+    margin-left: 2px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#five{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#six{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#seven{
+    width: 5rem;
+    height: 5rem;
+    font-size: 3em;
+    margin-left: 2px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#eight{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#nine{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#c{
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.5em;
+    margin-left: 2px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#zero{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#equal{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#ops{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    width: 90px;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-left: 285px;
+}
+#ops button{
+    background-color: orange;
+    color: white;
+}
+#plus{
+    width: 5rem;
+    height: 5rem;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+#minus{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 8px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#divide{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 8px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#multiply{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 8px;
+    font-size: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#ops button:hover{
+    border: 2px solid white ;
+}

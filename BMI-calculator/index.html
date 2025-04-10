@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="icon" href="./images/bmi.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-gray-800 flex flex-col py-8 pb-16 justify-center items-center min-h-screen"
+  >
+    <div
+      class="w-full max-w-sm mx-auto bg-gray-900 p-6 border-2 border-white rounded-2xl shadow-lg"
+    >
+      <h1 class="text-4xl text-center pb-8 font-bold text-green-500">
+        BMI Calculator
+      </h1>
+      <form class="flex flex-col justify-center space-y-4">
+        <div class="text-center">
+          <label class="block mb-2 text-gray-300">Weight (kgs)</label>
+          <input
+            type="text"
+            id="weight"
+            class="weight bg-white text-center border border-gray-300 rounded-md px-4 py-2 shadow-sm placeholder-gray-400 focus:border-green-500 focus:ring"
+            placeholder="Enter weight"
+          />
+        </div>
+        <div class="text-center">
+          <label class="block mb-2 text-gray-300">Height (m)</label>
+          <input
+            type="text"
+            id="height"
+            class="height bg-white border text-center border-gray-300 rounded-md px-4 py-2 shadow-sm placeholder-gray-400 focus:border-green-500 focus:ring"
+            placeholder="Enter height"
+          />
+        </div>
+        <div class="flex justify-center space-x-2">
+          <button
+            type="button"
+            id="resetBtn"
+            class="resetBtn bg-red-500 hover:bg-red-600 text-white font-medium py-2 px-4 rounded-md"
+          >
+            Reset
+          </button>
+          <button
+            type="button"
+            id="submitBtn"
+            class="submitBtn bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-md"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+      <div id="BMI" class="BMI text-5xl text-center font-bold mt-4 text-white">
+        0.00
+      </div>
+      <div class="reaction mt-4 flex justify-center">
+        <p id="emoji" class="emoji text-6xl rounded-full p-2">&#128512;</p>
+      </div>
+      <div class="msgContainer mt-4">
+        <p id="msg" class="msg text-center text-xl text-gray-400">
+          Check whether you are healthy or not.
+        </p>
+      </div>
+    </div>
+    <div
+      class="FYQs mt-8 w-full max-w-sm mx-auto bg-gray-900 py-8 px-4 rounded-xl shadow-lg"
+    >
+      <h3 class="text-3xl pb-8 font-bold mb-4 text-center text-white">
+        Frequently asked questions
+      </h3>
+      <div class="FYQques text-xl">
+        <details class="mb-4">
+          <summary class="cursor-pointer text-blue-500">What is BMI ?</summary>
+          <p class="text-gray-400 mt-2">
+            Body Mass Index (BMI) is a person's weight in kilograms divided by
+            the square of height in meters.
+          </p>
+        </details>
+        <details class="mb-4">
+          <summary class="cursor-pointer text-blue-500">
+            Importance of BMI
+          </summary>
+          <p class="text-gray-400 mt-2">
+            BMI is an estimate of body fat and a good gauge of your risk for
+            diseases that can occur with more body fat. The higher your BMI, the
+            higher your risk for certain diseases such as heart disease, high
+            blood pressure, type 2 diabetes, gallstones, breathing problems, and
+            certain cancers.
+          </p>
+        </details>
+        <details class="mb-4">
+          <summary class="cursor-pointer text-blue-500">
+            How do we calculate BMI ?
+          </summary>
+          <p class="text-gray-400 mt-2">
+            The formula is BMI = kg/m2 where kg is a person's weight in
+            kilograms and m2 is their height in metres squared.
+          </p>
+        </details>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

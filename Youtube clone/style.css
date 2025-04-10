@@ -1,0 +1,434 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: youtube_sans_font;
+    position:relative;
+}
+
+/*----LEFT BAR----*/
+#left_bar{
+    border: 1px solid white;
+    float: left;
+    width: 75px;
+    height: 99.7vh;
+    display: inline;
+}
+
+/*Options Button*/
+#options{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 18px;
+    overflow: hidden;
+}
+#options_img{
+    width: 18px;
+    height: 22px;
+    padding-left: 11px;
+    padding-top: 9px;
+}
+#options:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+
+a{
+    text-decoration: none;
+}
+p{
+    padding: 0;
+    margin-top: 5px;
+}
+
+/*Home Button*/
+#home{
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 7px;
+    overflow: hidden;
+    color: black;
+    font-size: 0.7em;
+    text-align: center;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+#home_img{
+    width: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    opacity: 1;
+}
+#home:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+/*Shorts Button*/
+#shorts{
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 7px;
+    overflow: hidden;
+    color: black;
+    font-size: 0.7em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#shorts_img{
+    width: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    opacity: 1;
+}
+#shorts:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+/*Subscriptions Button*/
+#subscriptions{
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 7px;
+    color: black;
+    font-size: 0.7em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#subscriptions_img{
+    width: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    opacity: 1;
+}
+#subscriptions:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+/*You Button*/
+#you{
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 7px;
+    overflow: hidden;
+    color: black;
+    font-size: 0.7em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#you_img{
+    width: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    opacity: 1;
+}
+#you:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+/*Downloads Button*/
+#downloads{
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 7px;
+    overflow: hidden;
+    color: black;
+    font-size: 0.7em;
+    text-align: center;
+}
+#downloads_img{
+    width: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    opacity: 1;
+}
+#downloads:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+
+/*----TOP BAR----*/
+#top_bar{
+    width: 1185px;
+    height: 60px;
+    border: 1px solid white;
+    margin-left: 76px;
+    display: block;
+}
+#youtube_logo{
+    display: inline;
+    overflow: hidden;
+    width: 120px;
+    height: 30px;
+    margin-top: 13px;
+    float: left;
+}
+#youtube_img{
+    width: 120px;
+}
+
+#search_bar{
+    border: 1px solid rgb(206, 206, 206);
+    width: 530px;
+    height: 37px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 120px;
+    padding-left: 0px;
+    color: rgb(201, 201, 201);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#search_bar input{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline-color: rgb(206, 206, 206);
+    border: none;
+    outline-width: 1px;
+    width: 523px;
+    height: 34px;
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+#search_button{
+    width: 62px;
+    height: 37.5px;
+    border: 1px solid rgb(206, 206, 206);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 530px;
+    margin-top: -38px;
+    overflow: hidden;
+    background-color: rgb(243, 243, 243);
+
+}
+#search_img{
+    width: 40px;
+    padding-left: 10px;
+    margin-top: -2px;
+}
+#search_button:hover{
+    background-color: rgb(229, 229, 229);
+}
+
+#voice_search{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    float: right;
+    overflow: hidden;
+    margin-right: 295px;
+    margin-top: 8px;
+    background-color: rgb(241, 241, 241);
+}
+#mic_img{
+    width: 20px;
+    margin-left: 0px;
+    padding-top: 2.5px;
+}
+#voice_search:hover{
+    background-color: rgb(229, 229, 229);
+}
+
+#create_button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    float: left;
+    overflow: hidden;
+    margin-left: 990px;
+    margin-top: -40px;
+}
+#create_img{
+    width:55px;
+    margin-left: -6px;
+    margin-top: -5px;
+}
+#create_button:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+#notofication_button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    float: left;
+    overflow: hidden;
+    margin-left: 1045px;
+    margin-top: -40px;
+}
+#notifications_img{
+    width: 30px;
+    padding-left: 5px;
+    padding-top: 4px
+}
+#notofication_button:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+
+#profile_button{
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 25px;
+    float: right;
+    overflow: hidden;
+    margin-right: 45px;
+    margin-top: -40px;
+}
+#profile_img{
+    width: 100px;
+    margin-left: -35px;
+    margin-top: -7px;
+}
+
+/*TOPIC BAR*/
+#topic_bar{
+    width: 1185.5px;
+    height: 40px;
+    border: 1px solid white;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    float: left;
+}
+
+#topic_bar button{
+    margin-top: 10px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 15px;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#topic_bar button:hover{
+    background-color: rgb(227, 227, 227);
+}
+@font-face{
+    font-family: youtube_sans_font;
+    src: url(/youtube_sans_font/YouTubeSansMedium.otf);
+}
+
+/*VIDEO AREA*/
+#video_area{
+    border: 1px solid white;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1185px;
+    height: 444px;
+    margin-top: 10px;
+    margin-left: 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+.video{
+    margin: 15px;
+    border: 1px solid white;
+    width: 350px;
+    height: 310px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.video:hover{
+    background-color: rgb(241, 241, 241);
+}
+.size{
+    width: 350px;
+    border-radius: 10px;
+}
+.channel{
+    width: 30px;
+    padding-top: 5px;
+    padding-right: 10px;
+    float: left;
+}
+.video_title{
+    padding-left: 10px;
+    font-weight: bold;
+    width: 280px;
+    float: left;
+    margin-top: -20px;
+}
+.video_ops{
+    width: 20px;
+    height: 35px;
+    margin-left: 320px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-top: -65px;
+}
+.video_ops_img{
+    width: 30px;
+    margin-left: -5px;
+    margin-top: 3px;
+}
+.video_ops:hover{
+    background-color: rgb(232, 232, 232);
+}
+.description{
+    float: left;
+    width: 350px;
+    height: 40px;
+    margin-top: -60px;
+}
+
+#ops_menu{
+    width: 240px;
+    height: 99.7vh;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    font-size: 2em;
+    color: black;
+    margin-top: -62px;
+    margin-left: -300px;
+    position: absolute;
+
+
+}
+@keyframes slide_right{
+    100%{transform: translateX(300px);}
+}
